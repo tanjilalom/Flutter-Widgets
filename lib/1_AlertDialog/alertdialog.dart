@@ -14,6 +14,7 @@ class _MyAlertDialogState extends State<MyAlertDialog> {
       appBar: AppBar(
         title: const Text('Alert Dialog'),
         centerTitle: true,
+        backgroundColor: Colors.deepPurple[100],
       ),
       body: Center(
         child: MaterialButton(
@@ -36,8 +37,8 @@ class _MyAlertDialogState extends State<MyAlertDialog> {
       context: context,
       builder: (context) {
         return AlertDialog(
-          title: const Text('Title'),
-          content: const Text('Content, more information'),
+          title: Text('Title'),
+          content: Text('Content, more information'),
           actions: [
             MaterialButton(
               color: Colors.deepPurple[100],
