@@ -1,26 +1,130 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/1_AlertDialog/alertdialog.dart';
-import 'package:flutter_widgets/2_animated_align/animated_align.dart';
+import 'routes.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Widget of the day!',
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        useMaterial3: false,
+        primarySwatch: Colors.purple,
       ),
-      //home: MyAlertDialog()
-      home: MyAnimatedAlign()
+      //home:( MyContainer(),
+      //home:( MyExpanded(),
+      //home:( MyColumn(),
+      //home:( MyRow(),
+      //home: MyListView(),
+      //home:( MySingleChildScrollView(),
+      //home:( MyImageAsset(),
+      //home:( MyGridView(),
+      //home:( MyGestureDetector(),
+      //home:( MyBottomNavBar(),
+      //home:( MyAppBar(),
+      //home:( MyDrawer(),
+      //home:( MySliverAppBar(),
+      //home:( MyTabBar(),
+      //home:( MyAnimatedContainer(),
+      //home:( MyMediaQuery(),
+      //home:( MyAlertDialog(),
+      //home:( MyTextStyle(),
+      //home:( MyRichText(),
+      //home:( MyTimer(),
+      //home: MyPageView(),
+      //home:( MyStack(),
+      //home:( MyTextField(),
+      //home:( MyAnimatedIcon(),
+      //home:( MySlider(),
+      //home:( MyDatePicker(),
+      //home:( MyTimePicker(),
+      //home:( MyListWheelScrollView(),
+      //home:( MyLinearGradient(),
+      //home:( MyElevatedButton(),
+      //home:( MyFloatingActionButton(),
+      //home:( MyRawMaterialButton(),
+      //home:( MyIconButton(),
+      //home:( MyNavigator(),        // Imperative navigation
+      //home:( MyCard(),
+      //home:( MyCustomClipper(),
+      //home:( MyRotatedBox(),
+      //home:( MyTransform(),
+      //home:( MyPositioned(),
+      //home:( MyCustomPaint(),
+      //home:( MyClipOval(),
+      //home:( MyClipRRect(),
+      //home:( MyClipRect(),
+      //home:( MyClipPath(),
+      //home:( MyRadialNSeepGradient(),
+      //home:( MyStatufulWidget(number: 0),
+      //home:( MyTable(),
+      //home:( MyDataTable(),
+      //home:( MyPlaceholder(),
+      //home:( MyGestetureNInk(),
+      //home:( MyMaterial(),
+      //home:( MySwitches(),
+      //home:( MyDropDownNPopupMenu(),
+      //home:( MyHeroAnimation(),
+      //home:( MyAboutDialog(),
+      //home:( MyStepper(),
+      //home:( MyFittedBox(),
+      //home:( MyShowSearch(),
+      //home:( MyAdaptive(),
+      //home:( MyScrollbar(),
+      //home:( MyChoiceChip(),
+      //home:( MyWrap(),
+      //home:( MyExpansionTile(),
+      //home:( MyRangeSlider(),
+      //home:( MyShowModelBottomSheet(),
+      //home:( MyAnimatedCrossFade(),
+      //home:( MyFlexible(),
+      //home:( MySpacer(),
+      //home:( MyGridPaper(),
+      //home:( MyInteractiveViewer(),
+      //home:( MyCheckboxListTile(),
+      //home:( MySelectableText(),
+      //home:( MyAnimatedPadding(),
+      //home:( MyRefreshIndicator(),
+      //home:( MyImageFiltered(),
+      //home:( MyAspectRatio(),
+      //home:( MyToggleButton(),
+      //home:( MyPhysicalModel(),
+      //home:( MyAlign(),
+      //home:( MySafeArea(),
+      //home:( MyPageRouteBuilder(),
+      //home:( MyDraggable(),
+      //home:( MyBackdropFilter(),
+      //home:( MyReorderableListView(),
+      //home:( MyFadeTransition(),
+      //home:( MyCircleAvatar(),
+      //home:( MyTooltip(),
+      //home:( MyVisibility(),
+      //home:( MyIndexedStack(),
+      //home:( MyNavigator2(),          // Declarative navigation
+      //home: MyNullAwareOperators(),
+      //home:( MyCascadeOperator(),
+      //home:( MyInheritedWidget(),
+      //home:( MyFractionallySizedBox(),
+      //home:( MyConstrainedBox(),
+      //home:( MyCupertinoSearch(),
+      //home:( MyStatefulBuilder(),
+      //home:( MyLayoutBuilder(), //Open in Chrome
+      //home:( MyOrientationBuilder(), //For Portrait & Landscape view
+      //home:( MyPlatformDetect(),
+      //home:( MyFutureBuilder(),
+      //home:( MyStreamBuilder(),
+      //home:( MyChangeNotifier(),
+      //home:( MyValueNotifier(),
+      //home:( MyInheritedNotifier(),
+      //home:( MyListener(),
+      //home:( MyBuilder(),
+      //home:( MyPageViewBuilder(),
+      //home:( MyAnimationBuilder(),
+      home: MySnackBar(),
     );
   }
 }
