@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MySliverAppBar extends StatelessWidget {
-  const MySliverAppBar({Key? key}) : super(key: key);
+  const MySliverAppBar({super.key});
 
   @override
   Widget build(BuildContext context) {

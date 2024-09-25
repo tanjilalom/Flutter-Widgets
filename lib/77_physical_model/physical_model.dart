@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyPhysicalModel extends StatelessWidget {
-  const MyPhysicalModel({Key? key}) : super(key: key);
+  const MyPhysicalModel({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MySlider extends StatefulWidget {
-  const MySlider({Key? key}) : super(key: key);
+  const MySlider({super.key});
 
   @override
   _MySliderState createState() => _MySliderState();

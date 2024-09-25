@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyRawMaterialButton extends StatelessWidget {
-  const MyRawMaterialButton({Key? key}) : super(key: key);
+  const MyRawMaterialButton({super.key});
 
   @override
   Widget build(BuildContext context) {

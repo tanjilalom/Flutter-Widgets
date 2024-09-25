@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class MyCupertinoSearch extends StatefulWidget {
-  const MyCupertinoSearch({Key? key}) : super(key: key);
+  const MyCupertinoSearch({super.key});
 
   @override
   State<MyCupertinoSearch> createState() => _MyCupertinoSearchState();

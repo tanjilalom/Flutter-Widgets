@@ -5,7 +5,7 @@ import '/9_bottom-nav_bar/pages/settings.dart';
 import '/9_bottom-nav_bar/pages/account.dart';
 
 class MyBottomNavBar extends StatefulWidget {
-  const MyBottomNavBar({Key? key}) : super(key: key);
+  const MyBottomNavBar({super.key});
 
   @override
   State<MyBottomNavBar> createState() => _MyBottomNavBarState();
@@ -32,6 +32,8 @@ class _MyBottomNavBarState extends State<MyBottomNavBar> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Bottom Nav bar"),
+        centerTitle: true,
+        backgroundColor: Colors.deepPurple,
       ),
       body: _pages[_selectIndex],
       bottomNavigationBar: BottomNavigationBar(

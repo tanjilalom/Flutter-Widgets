@@ -7,7 +7,7 @@ import 'spin_mode.dart';
 /// https://api.flutter.dev/flutter/widgets/InheritedNotifier-class.html
 
 class Spinner extends StatelessWidget {
-  const Spinner({Key? key}) : super(key: key);
+  const Spinner({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +26,7 @@ class Spinner extends StatelessWidget {
 }
 
 class MyInheritedNotifier extends StatefulWidget {
-  const MyInheritedNotifier({Key? key}) : super(key: key);
+  const MyInheritedNotifier({super.key});
 
   @override
   State<MyInheritedNotifier> createState() => _MyInheritedNotifierState();

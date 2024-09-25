@@ -3,7 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class MyBackdropFilter extends StatelessWidget {
-  const MyBackdropFilter({Key? key}) : super(key: key);
+  const MyBackdropFilter({super.key});
 
   @override
   Widget build(BuildContext context) {

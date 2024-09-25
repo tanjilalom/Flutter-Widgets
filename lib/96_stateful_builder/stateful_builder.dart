@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class MyStatefulBuilder extends StatefulWidget {
-  const MyStatefulBuilder({Key? key}) : super(key: key);
+  const MyStatefulBuilder({super.key});
 
   @override
   State<MyStatefulBuilder> createState() => _MyStatefulBuilderState();

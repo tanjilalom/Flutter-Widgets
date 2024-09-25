@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyShowSearch extends StatefulWidget {
-  const MyShowSearch({Key? key}) : super(key: key);
+  const MyShowSearch({super.key});
 
   @override
   State<MyShowSearch> createState() => _MyShowSearchState();

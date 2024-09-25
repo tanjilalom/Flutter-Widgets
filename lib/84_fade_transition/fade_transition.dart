@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyFadeTransition extends StatefulWidget {
-  const MyFadeTransition({Key? key}) : super(key: key);
+  const MyFadeTransition({super.key});
 
   @override
   State<MyFadeTransition> createState() => _MyFadeTransitionState();

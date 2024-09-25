@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyLayoutBuilder extends StatefulWidget {
-  const MyLayoutBuilder({Key? key}) : super(key: key);
+  const MyLayoutBuilder({super.key});
 
   @override
   State<MyLayoutBuilder> createState() => _MyLayoutBuilderState();

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyGestureDetector extends StatefulWidget {
-  const MyGestureDetector({Key? key}) : super(key: key);
+  const MyGestureDetector({super.key});
 
   @override
   State<MyGestureDetector> createState() => _MyGestureDetectorState();
@@ -22,6 +22,8 @@ class _MyGestureDetectorState extends State<MyGestureDetector> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Gesture Detector"),
+        centerTitle: true,
+        backgroundColor: Colors.deepPurple,
       ),
       body: Center(
         child: Column(

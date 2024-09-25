@@ -5,7 +5,7 @@ import 'hours.dart';
 import 'minutes.dart';
 
 class MyListWheelScrollView extends StatefulWidget {
-  const MyListWheelScrollView({Key? key}) : super(key: key);
+  const MyListWheelScrollView({super.key});
 
   @override
   _MyListWheelScrollViewState createState() => _MyListWheelScrollViewState();

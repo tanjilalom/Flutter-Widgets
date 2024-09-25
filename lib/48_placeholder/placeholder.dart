@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyPlaceholder extends StatelessWidget {
-  const MyPlaceholder({Key? key}) : super(key: key);
+  const MyPlaceholder({super.key});
 
   @override
   Widget build(BuildContext context) {

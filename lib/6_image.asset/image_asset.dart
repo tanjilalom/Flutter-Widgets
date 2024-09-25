@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 
 class MyImageAsset extends StatelessWidget {
-  const MyImageAsset({Key? key}) : super(key: key);
+  const MyImageAsset({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Image Asset"),
+        centerTitle: true,
+        backgroundColor: Colors.deepPurple,
       ),
       body: Center(
         child: ClipRRect(

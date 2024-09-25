@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyFutureBuilder extends StatefulWidget {
-  const MyFutureBuilder({Key? key}) : super(key: key);
+  const MyFutureBuilder({super.key});
 
   @override
   State<MyFutureBuilder> createState() => _MyFutureBuilderState();

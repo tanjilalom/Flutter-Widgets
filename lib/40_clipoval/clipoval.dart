@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyClipOval extends StatelessWidget {
-  const MyClipOval({Key? key}) : super(key: key);
+  const MyClipOval({super.key});
 
   @override
   Widget build(BuildContext context) {

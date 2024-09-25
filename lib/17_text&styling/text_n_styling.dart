@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyTextStyle extends StatelessWidget {
-  const MyTextStyle({Key? key}) : super(key: key);
+  const MyTextStyle({super.key});
 
   final pinkFont = const TextStyle(
     fontSize: 16,
@@ -23,7 +23,11 @@ class MyTextStyle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Text & Style")),
+      appBar: AppBar(
+        title: const Text("Text & Style"),
+        centerTitle: true,
+        backgroundColor: Colors.deepPurple,
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,

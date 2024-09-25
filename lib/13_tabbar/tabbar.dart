@@ -4,7 +4,7 @@ import '/13_tabbar/tabs/second_tab.dart';
 import '/13_tabbar/tabs/third_tab.dart';
 
 class MyTabBar extends StatelessWidget {
-  const MyTabBar({Key? key}) : super(key: key);
+  const MyTabBar({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,6 +13,8 @@ class MyTabBar extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           title: const Text("T A B B A R"),
+          centerTitle: true,
+          backgroundColor: Colors.deepPurple,
         ),
         body: Column(
           children: const [

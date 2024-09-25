@@ -4,7 +4,7 @@ import 'share_page.dart';
 import 'signin_page.dart';
 
 class MyDropDownNPopupMenu extends StatefulWidget {
-  const MyDropDownNPopupMenu({Key? key}) : super(key: key);
+  const MyDropDownNPopupMenu({super.key});
 
   @override
   _MyDropDownNPopupMenuState createState() => _MyDropDownNPopupMenuState();

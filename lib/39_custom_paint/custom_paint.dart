@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyCustomPaint extends StatelessWidget {
-  const MyCustomPaint({Key? key}) : super(key: key);
+  const MyCustomPaint({super.key});
 
   @override
   Widget build(BuildContext context) {

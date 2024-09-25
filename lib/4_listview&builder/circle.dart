@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class MyCircle extends StatelessWidget {
   final String child;
-  const MyCircle({Key? key, required this.child}) : super(key: key);
+  const MyCircle({super.key, required this.child});
 
   @override
   Widget build(BuildContext context) {

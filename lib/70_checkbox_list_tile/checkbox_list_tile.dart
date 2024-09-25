@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyCheckboxListTile extends StatefulWidget {
-  const MyCheckboxListTile({Key? key}) : super(key: key);
+  const MyCheckboxListTile({super.key});
 
   @override
   State<MyCheckboxListTile> createState() => _MyCheckboxListTileState();

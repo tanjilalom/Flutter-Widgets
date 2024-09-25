@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:io' show Platform;
 
 class MyPlatformDetect extends StatelessWidget {
-  const MyPlatformDetect({Key? key}) : super(key: key);
+  const MyPlatformDetect({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -2,7 +2,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class MyRefreshIndicator extends StatelessWidget {
-  const MyRefreshIndicator({Key? key}) : super(key: key);
+  const MyRefreshIndicator({super.key});
 
   Future<void> _refresh() {
     return Future.delayed(

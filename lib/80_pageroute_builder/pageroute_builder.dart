@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widgets/80_pageroute_builder/BouncyPageRoute.dart';
 
 class MyPageRouteBuilder extends StatelessWidget {
-  const MyPageRouteBuilder({Key? key}) : super(key: key);
+  const MyPageRouteBuilder({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +31,7 @@ class MyPageRouteBuilder extends StatelessWidget {
 }
 
 class SecondPage extends StatelessWidget {
-  const SecondPage({Key? key}) : super(key: key);
+  const SecondPage({super.key});
 
   @override
   Widget build(BuildContext context) {

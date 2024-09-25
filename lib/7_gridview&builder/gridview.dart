@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 
 class MyGridView extends StatelessWidget {
-  const MyGridView({Key? key}) : super(key: key);
+  const MyGridView({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text("GridView"),
+        centerTitle: true,
+        backgroundColor: Colors.deepPurple,
       ),
       body: GridView.builder(
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(

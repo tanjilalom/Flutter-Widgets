@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyListener extends StatefulWidget {
-  const MyListener({Key? key}) : super(key: key);
+  const MyListener({super.key});
 
   @override
   State<MyListener> createState() => _MyListenerState();

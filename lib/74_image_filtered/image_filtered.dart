@@ -2,7 +2,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class MyImageFiltered extends StatelessWidget {
-  const MyImageFiltered({Key? key}) : super(key: key);
+  const MyImageFiltered({super.key});
 
   @override
   Widget build(BuildContext context) {

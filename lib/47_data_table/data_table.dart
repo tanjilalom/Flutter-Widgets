@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyDataTable extends StatefulWidget {
-  const MyDataTable({Key? key}) : super(key: key);
+  const MyDataTable({super.key});
 
   @override
   State<MyDataTable> createState() => _MyDataTableState();

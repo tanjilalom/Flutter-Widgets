@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyChoiceChip extends StatefulWidget {
-  const MyChoiceChip({Key? key}) : super(key: key);
+  const MyChoiceChip({super.key});
 
   @override
   State<MyChoiceChip> createState() => _MyChoiceChipState();

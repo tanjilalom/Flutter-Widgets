@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyTimePicker extends StatefulWidget {
-  const MyTimePicker({Key? key}) : super(key: key);
+  const MyTimePicker({super.key});
 
   @override
   _MyTimePickerState createState() => _MyTimePickerState();

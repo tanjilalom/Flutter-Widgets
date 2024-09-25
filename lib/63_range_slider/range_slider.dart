@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyRangeSlider extends StatefulWidget {
-  const MyRangeSlider({Key? key}) : super(key: key);
+  const MyRangeSlider({super.key});
 
   @override
   State<MyRangeSlider> createState() => _MyRangeSliderState();

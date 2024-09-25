@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SharePage extends StatelessWidget {
-  const SharePage({Key? key}) : super(key: key);
+  const SharePage({super.key});
 
   @override
   Widget build(BuildContext context) {

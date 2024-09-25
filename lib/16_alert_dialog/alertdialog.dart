@@ -2,13 +2,38 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class MyAlertDialog extends StatefulWidget {
-  const MyAlertDialog({Key? key}) : super(key: key);
+  const MyAlertDialog({super.key});
 
   @override
   State<MyAlertDialog> createState() => _MyAlertDialogState();
 }
 
 class _MyAlertDialogState extends State<MyAlertDialog> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.deepPurple[100],
+      appBar: AppBar(
+        title: const Text('Alert Dialog'),
+        centerTitle: true,
+        backgroundColor: Colors.deepPurple,
+      ),
+      body: Center(
+        child: MaterialButton(
+          color: Colors.deepPurple[300],
+          onPressed: _showDialog,
+          child: const Padding(
+            padding: EdgeInsets.all(10.0),
+            child: Text(
+              'SHOW DIALOG',
+              style: TextStyle(fontSize: 24),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
   void _showDialog() {
     showDialog(
         context: context,
@@ -36,26 +61,5 @@ class _MyAlertDialogState extends State<MyAlertDialog> {
             ],
           );
         });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.deepPurple[100],
-      appBar: AppBar(title: const Text('Alert Dialog')),
-      body: Center(
-        child: MaterialButton(
-          color: Colors.deepPurple[300],
-          onPressed: _showDialog,
-          child: const Padding(
-            padding: EdgeInsets.all(10.0),
-            child: Text(
-              'SHOW DIALOG',
-              style: TextStyle(fontSize: 24),
-            ),
-          ),
-        ),
-      ),
-    );
   }
 }

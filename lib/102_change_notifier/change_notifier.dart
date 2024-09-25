@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'controller.dart';
 
 class MyChangeNotifier extends StatefulWidget {
-  const MyChangeNotifier({Key? key}) : super(key: key);
+  const MyChangeNotifier({super.key});
 
   @override
   State<MyChangeNotifier> createState() => _MyChangeNotifierState();

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyAspectRatio extends StatelessWidget {
-  const MyAspectRatio({Key? key}) : super(key: key);
+  const MyAspectRatio({super.key});
 
   @override
   Widget build(BuildContext context) {

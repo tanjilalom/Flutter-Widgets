@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'user_model.dart';
 
 class MyCascadeOperator extends StatelessWidget {
-  const MyCascadeOperator({Key? key}) : super(key: key);
+  const MyCascadeOperator({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyShowModelBottomSheet extends StatelessWidget {
-  const MyShowModelBottomSheet({Key? key}) : super(key: key);
+  const MyShowModelBottomSheet({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
 
 class MyMediaQuery extends StatelessWidget {
-  const MyMediaQuery({Key? key}) : super(key: key);
+  const MyMediaQuery({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Media Query")),
       backgroundColor: Colors.deepPurple[100],
+      appBar: AppBar(
+        title: const Text("Media Query"),
+        centerTitle: true,
+        backgroundColor: Colors.deepPurple,
+      ),
       body: Center(
         child: Column(
           //crossAxisAlignment: CrossAxisAlignment.start,
@@ -21,14 +25,12 @@ class MyMediaQuery extends StatelessWidget {
               'Width: ${MediaQuery.of(context).size.width}',
               style: const TextStyle(fontSize: 24),
             ),
-            Text(
-              'Aspect Ratio: ' +
-                  MediaQuery.of(context).size.aspectRatio.toStringAsFixed(2),
+            Text('Aspect Ratio: ${MediaQuery.of(context).size.aspectRatio.toStringAsFixed(2)}',
               style: const TextStyle(fontSize: 24),
             ),
             // for orientation
             Text(
-              "Orientation: " + MediaQuery.of(context).orientation.toString(),
+              'Orientation: ${MediaQuery.of(context).orientation.toString()}',
               style: const TextStyle(fontSize: 24),
             ),
           ],

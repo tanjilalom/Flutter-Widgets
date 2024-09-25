@@ -3,7 +3,7 @@ import '/11_drawer/pages/first_page.dart';
 import '/11_drawer/pages/second_page.dart';
 
 class MyDrawer extends StatelessWidget {
-  const MyDrawer({Key? key}) : super(key: key);
+  const MyDrawer({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,6 +12,7 @@ class MyDrawer extends StatelessWidget {
         backgroundColor: Colors.deepPurple[300],
         elevation: 0,
         title: const Text("D R A W E R"),
+        centerTitle: true,
       ),
       drawer: Drawer(
         child: Container(

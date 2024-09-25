@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyClipRRect extends StatelessWidget {
-  const MyClipRRect({Key? key}) : super(key: key);
+  const MyClipRRect({super.key});
 
   @override
   Widget build(BuildContext context) {

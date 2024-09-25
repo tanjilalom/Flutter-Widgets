@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyRadialNSeepGradient extends StatelessWidget {
-  const MyRadialNSeepGradient({Key? key}) : super(key: key);
+  const MyRadialNSeepGradient({super.key});
 
   @override
   Widget build(BuildContext context) {

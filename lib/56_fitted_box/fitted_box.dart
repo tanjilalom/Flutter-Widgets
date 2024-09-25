@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyFittedBox extends StatelessWidget {
-  const MyFittedBox({Key? key}) : super(key: key);
+  const MyFittedBox({super.key});
 
   @override
   Widget build(BuildContext context) {

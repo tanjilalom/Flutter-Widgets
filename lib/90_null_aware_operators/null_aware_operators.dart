@@ -7,7 +7,7 @@ class MyNullAwareOperators extends StatelessWidget {
   String? variable3 = 'Value3';
   List<int>? variable4 = [1, 2];
 
-  MyNullAwareOperators({Key? key}) : super(key: key);
+  MyNullAwareOperators({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyStreamBuilder extends StatefulWidget {
-  const MyStreamBuilder({Key? key}) : super(key: key);
+  const MyStreamBuilder({super.key});
 
   @override
   State<MyStreamBuilder> createState() => _MyStreamBuilderState();

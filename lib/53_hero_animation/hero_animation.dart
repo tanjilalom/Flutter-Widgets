@@ -3,7 +3,7 @@ import 'package:flutter_widgets/53_hero_animation/details.dart';
 import 'module.dart';
 
 class MyHeroAnimation extends StatelessWidget {
-  const MyHeroAnimation({Key? key}) : super(key: key);
+  const MyHeroAnimation({super.key});
 
   @override
   Widget build(BuildContext context) {

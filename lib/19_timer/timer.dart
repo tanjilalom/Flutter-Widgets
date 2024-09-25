@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 
 class MyTimer extends StatefulWidget {
-  const MyTimer({Key? key}) : super(key: key);
+  const MyTimer({super.key});
 
   @override
   State<MyTimer> createState() => _MyTimerState();
@@ -28,7 +28,11 @@ class _MyTimerState extends State<MyTimer> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Timer')),
+      appBar: AppBar(
+        title: const Text('Timer'),
+        centerTitle: true,
+        backgroundColor: Colors.deepPurple,
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,

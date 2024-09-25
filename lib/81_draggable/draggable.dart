@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyDraggable extends StatefulWidget {
-  const MyDraggable({Key? key}) : super(key: key);
+  const MyDraggable({super.key});
 
   @override
   State<MyDraggable> createState() => _MyDraggableState();

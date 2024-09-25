@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyScrollbar extends StatelessWidget {
-  const MyScrollbar({Key? key}) : super(key: key);
+  const MyScrollbar({super.key});
 
   @override
   Widget build(BuildContext context) {

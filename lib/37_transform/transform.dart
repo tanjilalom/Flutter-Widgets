@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyTransform extends StatelessWidget {
-  const MyTransform({Key? key}) : super(key: key);
+  const MyTransform({super.key});
 
   @override
   Widget build(BuildContext context) {

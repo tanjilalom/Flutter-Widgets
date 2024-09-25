@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 //*_____ Important: Quadratic Bezier Curve
 
 class MyCustomClipper extends StatelessWidget {
-  const MyCustomClipper({Key? key}) : super(key: key);
+  const MyCustomClipper({super.key});
 
   @override
   Widget build(BuildContext context) {

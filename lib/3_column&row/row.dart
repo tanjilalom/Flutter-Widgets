@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 
 class MyRow extends StatelessWidget {
-  const MyRow({Key? key}) : super(key: key);
+  const MyRow({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Row"),
+        centerTitle: true,
+        backgroundColor: Colors.deepPurple,
       ),
       body: Row(
         // horizontal alignment

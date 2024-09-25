@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyElevatedButton extends StatelessWidget {
-  const MyElevatedButton({Key? key}) : super(key: key);
+  const MyElevatedButton({super.key});
 
   @override
   Widget build(BuildContext context) {

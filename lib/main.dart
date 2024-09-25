@@ -5,7 +5,7 @@ import 'package:flutter_widgets/109_snack_bar/snack_bar.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  MyApp({Key? key}) : super(key: key);
+  MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {

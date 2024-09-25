@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'new_screen.dart';
 
 class MyGestetureNInk extends StatefulWidget {
-  const MyGestetureNInk({Key? key}) : super(key: key);
+  const MyGestetureNInk({super.key});
 
   @override
   State<MyGestetureNInk> createState() => _MyGestetureNInkState();

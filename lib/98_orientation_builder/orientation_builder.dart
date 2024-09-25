@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyOrientationBuilder extends StatefulWidget {
-  const MyOrientationBuilder({Key? key}) : super(key: key);
+  const MyOrientationBuilder({super.key});
 
   @override
   State<MyOrientationBuilder> createState() => _MyOrientationBuilderState();

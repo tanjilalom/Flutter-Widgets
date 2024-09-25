@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyLinearGradient extends StatelessWidget {
-  const MyLinearGradient({Key? key}) : super(key: key);
+  const MyLinearGradient({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MySelectableText extends StatefulWidget {
-  const MySelectableText({Key? key}) : super(key: key);
+  const MySelectableText({super.key});
 
   @override
   State<MySelectableText> createState() => _MySelectableTextState();

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MySafeArea extends StatelessWidget {
-  const MySafeArea({Key? key}) : super(key: key);
+  const MySafeArea({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -4,7 +4,7 @@ import 'views/first_screen.dart';
 import 'views/second_screen.dart';
 
 class MyNavigator2 extends StatefulWidget {
-  const MyNavigator2({Key? key}) : super(key: key);
+  const MyNavigator2({super.key});
 
   @override
   State<MyNavigator2> createState() => _MyNavigator2State();

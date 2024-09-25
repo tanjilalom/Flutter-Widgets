@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
 
 class MyContainer extends StatelessWidget {
-  const MyContainer({Key? key}) : super(key: key);
+  const MyContainer({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[300],
-      appBar: AppBar(title: const Text("Container")),
+      appBar: AppBar(
+        title: const Text("Container"),
+        centerTitle: true,
+        backgroundColor: Colors.deepPurple,
+      ),
       body: Center(
         child: Container(
           alignment: Alignment.center,

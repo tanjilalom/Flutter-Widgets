@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyClipPath extends StatefulWidget {
-  const MyClipPath({Key? key}) : super(key: key);
+  const MyClipPath({super.key});
 
   @override
   State<MyClipPath> createState() => _MyClipPathState();

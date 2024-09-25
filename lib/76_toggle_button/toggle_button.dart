@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyToggleButton extends StatefulWidget {
-  const MyToggleButton({Key? key}) : super(key: key);
+  const MyToggleButton({super.key});
 
   @override
   State<MyToggleButton> createState() => _MyToggleButtonState();

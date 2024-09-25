@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyWrap extends StatelessWidget {
-  const MyWrap({Key? key}) : super(key: key);
+  const MyWrap({super.key});
 
   @override
   Widget build(BuildContext context) {

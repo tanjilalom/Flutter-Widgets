@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyIndexedStack extends StatefulWidget {
-  const MyIndexedStack({Key? key}) : super(key: key);
+  const MyIndexedStack({super.key});
 
   @override
   State<MyIndexedStack> createState() => _MyIndexedStackState();

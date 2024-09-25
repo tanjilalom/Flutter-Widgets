@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyVisibility extends StatefulWidget {
-  const MyVisibility({Key? key}) : super(key: key);
+  const MyVisibility({super.key});
 
   @override
   State<MyVisibility> createState() => _MyVisibilityState();

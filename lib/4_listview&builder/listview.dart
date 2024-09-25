@@ -3,7 +3,7 @@ import 'package:flutter_widgets/4_listview&builder/circle.dart';
 import 'package:flutter_widgets/4_listview&builder/square.dart';
 
 class MyListView extends StatelessWidget {
-  MyListView({Key? key}) : super(key: key);
+  MyListView({super.key});
 
   final List _post = [
     'post 1',
@@ -26,6 +26,8 @@ class MyListView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("ListView"),
+        centerTitle: true,
+        backgroundColor: Colors.deepPurple,
       ),
       body: Column(
         children: [

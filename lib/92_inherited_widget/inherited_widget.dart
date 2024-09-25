@@ -4,7 +4,7 @@ import 'state_widget.dart';
 import 'page/counter_page.dart';
 
 class MyInheritedWidget extends StatelessWidget {
-  const MyInheritedWidget({Key? key}) : super(key: key);
+  const MyInheritedWidget({super.key});
 
   /// this is the [root] file containing `MaterialApp`
   ///
@@ -22,7 +22,7 @@ class MyInheritedWidget extends StatelessWidget {
 }
 
 class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {

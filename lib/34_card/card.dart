@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'color_filters.dart';
 
 class MyCard extends StatelessWidget {
-  const MyCard({Key? key}) : super(key: key);
+  const MyCard({super.key});
 
   @override
   Widget build(BuildContext context) {

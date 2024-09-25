@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyDatePicker extends StatefulWidget {
-  const MyDatePicker({Key? key}) : super(key: key);
+  const MyDatePicker({super.key});
 
   @override
   _MyDatePickerState createState() => _MyDatePickerState();

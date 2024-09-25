@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyTable extends StatelessWidget {
-  const MyTable({Key? key}) : super(key: key);
+  const MyTable({super.key});
 
   @override
   Widget build(BuildContext context) {

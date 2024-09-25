@@ -4,7 +4,7 @@ import 'data/users.dart';
 import 'model/user.dart';
 
 class MyReorderableListView extends StatefulWidget {
-  const MyReorderableListView({Key? key}) : super(key: key);
+  const MyReorderableListView({super.key});
 
   @override
   State<MyReorderableListView> createState() => _MyReorderableListViewState();

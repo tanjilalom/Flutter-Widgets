@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyPositioned extends StatelessWidget {
-  const MyPositioned({Key? key}) : super(key: key);
+  const MyPositioned({super.key});
 
   @override
   Widget build(BuildContext context) {

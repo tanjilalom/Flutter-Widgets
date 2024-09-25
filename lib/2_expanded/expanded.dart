@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 
 class MyExpanded extends StatelessWidget {
-  const MyExpanded({Key? key}) : super(key: key);
+  const MyExpanded({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Expanded'),
+        centerTitle: true,
+        backgroundColor: Colors.deepPurple,
       ),
       body: Column(
         children: [

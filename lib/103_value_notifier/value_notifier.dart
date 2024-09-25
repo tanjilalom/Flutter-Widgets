@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'controller.dart';
 
 class MyValueNotifier extends StatelessWidget {
-  const MyValueNotifier({Key? key}) : super(key: key);
+  const MyValueNotifier({super.key});
   @override
   Widget build(BuildContext context) {
     debugPrint('build executed once');

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyInteractiveViewer extends StatefulWidget {
-  const MyInteractiveViewer({Key? key}) : super(key: key);
+  const MyInteractiveViewer({super.key});
 
   @override
   State<MyInteractiveViewer> createState() => _MyInteractiveViewerState();

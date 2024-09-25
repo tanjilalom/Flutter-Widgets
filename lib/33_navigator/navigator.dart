@@ -4,7 +4,7 @@ import 'pages/screen1.dart';
 import 'pages/screen2.dart';
 
 class MyNavigator extends StatelessWidget {
-  const MyNavigator({Key? key}) : super(key: key);
+  const MyNavigator({super.key});
 
   @override
   Widget build(BuildContext context) {

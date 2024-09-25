@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyAnimatedContainer extends StatefulWidget {
-  const MyAnimatedContainer({Key? key}) : super(key: key);
+  const MyAnimatedContainer({super.key});
 
   @override
   State<MyAnimatedContainer> createState() => _MyAnimatedContainerState();
@@ -41,7 +41,11 @@ class _MyAnimatedContainerState extends State<MyAnimatedContainer> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.deepPurple[200],
-      appBar: AppBar(title: const Text("Animated Container")),
+      appBar: AppBar(
+        title: const Text("Animated Container"),
+        centerTitle: true,
+        backgroundColor: Colors.deepPurple,
+      ),
       body: Center(
         child: GestureDetector(
           onTap: _movedBox,

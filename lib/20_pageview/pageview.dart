@@ -4,7 +4,7 @@ import 'posts/post_2.dart';
 import 'posts/post_3.dart';
 
 class MyPageView extends StatelessWidget {
-  MyPageView({Key? key}) : super(key: key);
+  MyPageView({super.key});
   final _controller = PageController();
 
   @override

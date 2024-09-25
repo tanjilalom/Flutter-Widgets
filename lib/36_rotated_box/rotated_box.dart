@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyRotatedBox extends StatelessWidget {
-  const MyRotatedBox({Key? key}) : super(key: key);
+  const MyRotatedBox({super.key});
 
   @override
   Widget build(BuildContext context) {
